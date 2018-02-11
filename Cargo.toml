@@ -1,0 +1,9 @@
+[package]
+name = "exec"
+version = "0.1.0"
+authors = ["jsen- <max.enhanced@gmail.com>"]
+
+[dependencies]
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
